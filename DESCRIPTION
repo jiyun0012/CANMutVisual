@@ -1,0 +1,23 @@
+Package: CANMutVisual
+Type: Package
+Title: Analyze and Visualize Cancer Mutation Data 
+Version: 0.1.0
+Author@R: person("J", "Won", email = "karen.won@mail.utoronto.ca", role = c("aut", "cre"))
+Maintainer: Jiyun Won <karen.won@mail.utoronto.ca>
+Description: Output Mutation and gene occurence frequency, then visualize by plotting bar and pie graph. 
+License: MIT + file LICENSE
+Depends: R (>= 3.5.0)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat, 
+    knitr, 
+    rmarkdown
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    plotrix,
+    readr,
+    shiny,
+    stringr
+VignetteBuilder: knitr
